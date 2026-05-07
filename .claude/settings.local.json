@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__mcp-abap-adt__SearchObject",
+      "mcp__mcp-abap-adt__GetStructure",
+      "Bash(npm run *)",
+      "Bash(SAP_URL=https://x SAP_USERNAME=x SAP_PASSWORD=x SAP_CLIENT=000 node dist/index.js)",
+      "Bash(node tests/demo_runner.mjs --server sap-target)",
+      "Bash(node tests/demo_runner.mjs --config \"D:/adt_mcp/mcp-abap-adt/.mcp.json\" --server mcp-abap-adt --env)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" -k -u \"TMC.HUZAIFAG:Huzaifa1\" -H \"X-SAP-Client: 600\" \"https://saprouter.tallymarkscloud.com:4448/sap/bc/adt/discovery\")",
+      "Bash(curl -s -k -u \"TMC.HUZAIFAG:Huzaifa1\" -H \"X-SAP-Client: 600\" \"https://saprouter.tallymarkscloud.com:4448/sap/bc/adt/ddic/structures/BAPIMEOUTHEADER\")",
+      "Bash(curl -s -k -u \"TMC.HUZAIFAG:Huzaifa1\" -H \"X-SAP-Client: 600\" \"https://saprouter.tallymarkscloud.com:4448/sap/bc/adt/discovery\")",
+      "mcp__sap-target__CreateTransport"
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "mcpServers": {
+    "sap-source": {
+      "command": "node",
+      "args": ["D:/adt_mcp/mcp-abap-adt/dist/index.js"],
+      "env": {
+      	"SAP_URL": "https://saprouter.tallymarkscloud.com:4448/",
+        "SAP_USERNAME": "TMC.AI01",
+        "SAP_PASSWORD": "Tmc@1234",
+        "SAP_CLIENT": "600"
+      }
+    },
+    "sap-target": {
+      "command": "node",
+      "args": ["D:/adt_mcp/mcp-abap-adt/dist/index.js"],
+      "env": {
+        "SAP_URL": "https://saprouter.tallymarkscloud.com:4452/",
+        "SAP_USERNAME": "TMC.AI",
+        "SAP_PASSWORD": "Tmc@1234",
+        "SAP_CLIENT": "701"
+      }
+    },
+    "sap-public-cloud": {
+      "command": "node",
+      "args": ["D:/adt_mcp/mcp-abap-adt/dist/index.js"],
+      "env": {
+        "SAP_URL": "https://my433673.s4hana.cloud.sap/",
+        "SAP_USERNAME": "muhammad.noman@tmcltd.com",
+        "SAP_PASSWORD": "TMCabap@1234567890",
+        "SAP_CLIENT": "080"
+      }
+    }
+  }
+}
